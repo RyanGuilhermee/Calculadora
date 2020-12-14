@@ -26,7 +26,6 @@
         this.calculate = valores => {
             try {
                 const res = eval(valores);
-                console.log(typeof res)
 
                 if (!res) {
                     alert('conta inválida')
