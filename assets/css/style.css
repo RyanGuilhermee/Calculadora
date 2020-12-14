@@ -1,0 +1,68 @@
+@import 'https://fonts.googleapis.com/css2? family = Abrir + Sans & display = swap';
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgba(0, 0, 0, 0.932);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    width: 500px;
+    height: 450px;
+    margin: 50px auto;
+    background: rgb(56, 56, 56);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.container h1 {
+    text-align: center;
+    color: rgb(246, 239, 255);
+    text-shadow: 2px -2px 3px rgba(10, 99, 177, 0.809);
+}
+
+table {
+    margin-left: 75px;
+}
+
+.display {
+    font-size: 20pt;
+    font-weight: 500;
+    width: 330px;
+    height: 50px;
+    border-radius: 2px;
+}
+
+.display:focus {
+    border: 2px solid rgb(0, 85, 255);
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    font-size: 18pt;
+    background: rgba(231, 231, 231, 0.945);
+    border: none;
+    border-radius: 1px;
+}
+
+button:hover {
+    background: rgba(172, 172, 172, 0.966);
+}
+
+
+.iguality {
+    background: rgb(12, 12, 240);
+}
+
+.iguality:hover {
+    background: rgba(3, 3, 191, 0.938);
+}
