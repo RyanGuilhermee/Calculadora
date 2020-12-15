@@ -46,8 +46,6 @@
                 const key = e.keyCode;
                 if (key > 64 && key < 91) this.display.value = '';
             });
-
-
         };
     }
 
